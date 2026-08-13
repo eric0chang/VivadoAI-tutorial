@@ -57,6 +57,9 @@ Host ITRI-amd-user30
 
 <img width="3200" height="850" alt="image" src="https://github.com/user-attachments/assets/57fd1fa2-befa-4433-a11c-08a4d395849f" />
 
+<img width="724" height="948" alt="image" src="https://github.com/user-attachments/assets/292f0d32-55e3-4633-8fe7-1d6e741b277e" />
+
+
 
 
 
