@@ -55,13 +55,16 @@ This document will guide user how to link remote server and setup LLM and Vivado
 
 
 
-
-
+<br>
+<br>
+## Select and setup LLM model
 <img width="3200" height="1546" alt="image" src="https://github.com/user-attachments/assets/83300987-858f-4735-9eb8-6b6941766765" />
-
 <img width="3200" height="1542" alt="image" src="https://github.com/user-attachments/assets/b5a1c7c6-66c2-4ae4-b73d-414eb9e590e4" />
 
 
+<br>
+<br>
+## Start Vivado AI MCP tool
 <img width="3207" height="956" alt="image" src="https://github.com/user-attachments/assets/e1fd8c51-38a1-4f6d-a758-77e4ada35d5a" />
 
 <img width="3200" height="850" alt="image" src="https://github.com/user-attachments/assets/57fd1fa2-befa-4433-a11c-08a4d395849f" />
