@@ -26,7 +26,7 @@ This document will guide user how to link remote server and setup LLM and Vivado
 - Keep **Group Namd** and **API Key** as default, and select **Chat Completions Chat Completions API**
   <img width="404" height="76" alt="image" src="https://github.com/user-attachments/assets/522278a9-131e-44d6-b868-b1b2cd247052" /> <br>
   <img width="404" height="74" alt="image" src="https://github.com/user-attachments/assets/26bfe271-c28b-4044-8a40-1d6e449cf4c3" /> <br>
-  <img width="404" height="98" alt="image" src="https://github.com/user-attachments/assets/e38b063d-9d98-4f19-95ca-2da5169377d1" /> <br>
+  <img width="404" height="98" alt="image" src="https://github.com/user-attachments/assets/e38b063d-9d98-4f19-95ca-2da5169377d1" />
 
 - Edit .json file and save
   ```
@@ -54,7 +54,6 @@ This document will guide user how to link remote server and setup LLM and Vivado
   <img width="2576" height="950" alt="image" src="https://github.com/user-attachments/assets/488293b8-f419-47b8-964a-d81fda5016da" />
 
 
-
 <br>
 <br>
 
@@ -70,8 +69,8 @@ This document will guide user how to link remote server and setup LLM and Vivado
 - Press ▶️ to start a new section
   <img width="3207" height="956" alt="image" src="https://github.com/user-attachments/assets/e1fd8c51-38a1-4f6d-a758-77e4ada35d5a" />
 - Select the Vivado execution file
-  - `/mlstean/data/`
-  <img width="3200" height="850" alt="image" src="https://github.com/user-attachments/assets/57fd1fa2-befa-4433-a11c-08a4d395849f" />
+  - `/mlsteam/data/amd-vivado-server/tools/Xilinx/Vivado/2022.1/bin/vivado`
+    <img width="3200" height="850" alt="image" src="https://github.com/user-attachments/assets/57fd1fa2-befa-4433-a11c-08a4d395849f" />
 - Wait for new section start
   <img width="362" height="474" alt="image" src="https://github.com/user-attachments/assets/292f0d32-55e3-4633-8fe7-1d6e741b277e" />
 
