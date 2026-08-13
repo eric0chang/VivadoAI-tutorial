@@ -1,7 +1,10 @@
 # VivadoAI-tutorial
 
-##Goal
+
+## Goal
 This document will guide user how to link remote server and setup LLM and Vivado AI MCP. And experience AI-driven FPGA development.
+
+
 
 ## Connect Remote Server through SSH
 - connect server with username, password and IP address
@@ -15,6 +18,8 @@ This document will guide user how to link remote server and setup LLM and Vivado
 
 <img width="3200" height="592" alt="image" src="https://github.com/user-attachments/assets/a33d123a-ec67-4a04-91ae-aa58a1f0bf34" />
 
+
+
 ## Setup Local LLM
 - Select **Manage Models...** in CHAT box
 
@@ -24,14 +29,12 @@ This document will guide user how to link remote server and setup LLM and Vivado
 
 <img width="2530" height="668" alt="image" src="https://github.com/user-attachments/assets/883c9545-d2a3-45ba-9b7a-f859ff254df1" />
 
-- Keep **Group Namd** and **API Key"** as default, and select **Chat Completions Chat Completions API**
+- Keep **Group Namd** and **API Key** as default, and select **Chat Completions Chat Completions API**
 
 
 <img width="1212" height="228" alt="image" src="https://github.com/user-attachments/assets/522278a9-131e-44d6-b868-b1b2cd247052" />
 
 <img width="1220" height="224" alt="image" src="https://github.com/user-attachments/assets/26bfe271-c28b-4044-8a40-1d6e449cf4c3" />
-
-<img width="1193" height="307" alt="image" src="https://github.com/user-attachments/assets/50016420-d593-4495-a054-6b3abd1857a1" />
 
 <img width="1212" height="294" alt="image" src="https://github.com/user-attachments/assets/e38b063d-9d98-4f19-95ca-2da5169377d1" />
 
