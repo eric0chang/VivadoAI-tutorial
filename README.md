@@ -69,7 +69,8 @@ This document will guide user how to link remote server and setup LLM and Vivado
 - Press ▶️ to start a new section
   <img width="3207" height="956" alt="image" src="https://github.com/user-attachments/assets/e1fd8c51-38a1-4f6d-a758-77e4ada35d5a" />
 - Select the Vivado execution file
-  - `/mlsteam/data/amd-vivado-server/tools/Xilinx/Vivado/2022.1/bin/vivado` <br>
+  - `/mlsteam/data/amd-vivado-server/tools/Xilinx/Vivado/2022.1/bin/vivado`
+    <br>
     <img width="3200" height="850" alt="image" src="https://github.com/user-attachments/assets/57fd1fa2-befa-4433-a11c-08a4d395849f" />
 - Wait for new section start <br>
   <img width="241" height="316" alt="image" src="https://github.com/user-attachments/assets/292f0d32-55e3-4633-8fe7-1d6e741b277e" />
