@@ -1,3 +1,5 @@
+style="border:3px solid #FFFFFF;border-radius:8px;box-shadow:0 0 10px rgba(255,255,255,0.4);"
+
 # VivadoAI-tutorial
 This document will guide user how to link remote server and setup LLM and Vivado AI MCP. And experience AI-driven FPGA development.
 
@@ -7,7 +9,7 @@ This document will guide user how to link remote server and setup LLM and Vivado
 - connect server with username, password and IP address
   - modify username/password with requirement, `amd-user1@210.61.209.139:45091`
 
-<img width="3200" height="958" alt="image" src="https://github.com/user-attachments/assets/d1cba477-5255-4e77-96e1-5bf7eaffc1bc" style="border: 20px solid white;" />
+<img width="3200" height="958" alt="image" src="https://github.com/user-attachments/assets/d1cba477-5255-4e77-96e1-5bf7eaffc1bc" />
 
 - Open Folder as wrokspace and input password again
 
