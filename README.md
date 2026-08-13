@@ -1,5 +1,5 @@
 
-# VivadoAI-tutorial
+# Vivado AI Tutorial
 This document will guide user how to link remote server and setup LLM and Vivado AI MCP. And experience AI-driven FPGA development.
 
 
