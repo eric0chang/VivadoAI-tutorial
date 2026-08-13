@@ -1,4 +1,3 @@
-style="border:3px solid #FFFFFF;border-radius:8px;box-shadow:0 0 10px rgba(255,255,255,0.4);"
 
 # VivadoAI-tutorial
 This document will guide user how to link remote server and setup LLM and Vivado AI MCP. And experience AI-driven FPGA development.
@@ -11,30 +10,22 @@ This document will guide user how to link remote server and setup LLM and Vivado
     <img width="3200" height="958" alt="image" src="https://github.com/user-attachments/assets/d1cba477-5255-4e77-96e1-5bf7eaffc1bc" />
 
 - Open Folder as wrokspace and input password again
-
-<img width="2284" height="1088" alt="image" src="https://github.com/user-attachments/assets/7bb68641-c70f-4a12-b606-5925c03487e7" />
-
-<img width="3200" height="592" alt="image" src="https://github.com/user-attachments/assets/a33d123a-ec67-4a04-91ae-aa58a1f0bf34" />
+  <img width="2284" height="1088" alt="image" src="https://github.com/user-attachments/assets/7bb68641-c70f-4a12-b606-5925c03487e7" />
+  <img width="3200" height="592" alt="image" src="https://github.com/user-attachments/assets/a33d123a-ec67-4a04-91ae-aa58a1f0bf34" />
 
 
 
 ## Setup Local LLM
 - Select **Manage Models...** in CHAT box
-
-<img width="3200" height="1324" alt="image" src="https://github.com/user-attachments/assets/fa7595bb-366a-4392-8ed0-f97c0d8cb0e1" />
+  <img width="3200" height="1324" alt="image" src="https://github.com/user-attachments/assets/fa7595bb-366a-4392-8ed0-f97c0d8cb0e1" />
 
 - Press **Add Models** and Select **Custom Endpoint**
-
-<img width="2530" height="668" alt="image" src="https://github.com/user-attachments/assets/883c9545-d2a3-45ba-9b7a-f859ff254df1" />
+  <img width="2530" height="668" alt="image" src="https://github.com/user-attachments/assets/883c9545-d2a3-45ba-9b7a-f859ff254df1" />
 
 - Keep **Group Namd** and **API Key** as default, and select **Chat Completions Chat Completions API**
-
-
-<img width="404" height="76" alt="image" src="https://github.com/user-attachments/assets/522278a9-131e-44d6-b868-b1b2cd247052" />
-
-<img width="404" height="74" alt="image" src="https://github.com/user-attachments/assets/26bfe271-c28b-4044-8a40-1d6e449cf4c3" />
-
-<img width="404" height="98" alt="image" src="https://github.com/user-attachments/assets/e38b063d-9d98-4f19-95ca-2da5169377d1" />
+  <img width="404" height="76" alt="image" src="https://github.com/user-attachments/assets/522278a9-131e-44d6-b868-b1b2cd247052" />
+  <img width="404" height="74" alt="image" src="https://github.com/user-attachments/assets/26bfe271-c28b-4044-8a40-1d6e449cf4c3" />
+  <img width="404" height="98" alt="image" src="https://github.com/user-attachments/assets/e38b063d-9d98-4f19-95ca-2da5169377d1" />
 
 - Edit .json file and save
   ```
@@ -59,8 +50,7 @@ This document will guide user how to link remote server and setup LLM and Vivado
         }
     ]
   ```
-
-<img width="2576" height="950" alt="image" src="https://github.com/user-attachments/assets/488293b8-f419-47b8-964a-d81fda5016da" />
+  <img width="2576" height="950" alt="image" src="https://github.com/user-attachments/assets/488293b8-f419-47b8-964a-d81fda5016da" />
 
 
 
