@@ -1,4 +1,3 @@
-style="border:3px solid #FFFFFF;border-radius:8px;box-shadow:0 0 10px rgba(255,255,255,0.4);"
 
 # VivadoAI-tutorial
 This document will guide user how to link remote server and setup LLM and Vivado AI MCP. And experience AI-driven FPGA development.
