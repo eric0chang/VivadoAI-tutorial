@@ -31,7 +31,7 @@ This document will guide user how to link remote server and setup LLM and Vivado
 - Keep **Group Namd** and **API Key** as default, and select **Chat Completions Chat Completions API**
 
 
-<img width="606" height="114" alt="image" src="https://github.com/user-attachments/assets/522278a9-131e-44d6-b868-b1b2cd247052" />
+<img width="303" height="57" alt="image" src="https://github.com/user-attachments/assets/522278a9-131e-44d6-b868-b1b2cd247052" />
 
 <img width="1220" height="224" alt="image" src="https://github.com/user-attachments/assets/26bfe271-c28b-4044-8a40-1d6e449cf4c3" />
 
