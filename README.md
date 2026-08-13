@@ -22,4 +22,8 @@
 ]
 
 
-http://210.61.209.139:45827
+
+Host ITRI-amd-user30
+    HostName 210.61.209.139
+    User amd-user30
+    Port 45091
