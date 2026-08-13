@@ -10,7 +10,7 @@ This document will guide user how to link remote server and setup LLM and Vivado
 - connect server with username, password and IP address
   - modify username/password with requirement, `amd-user1@210.61.209.139:45091`
 
-<img width="3200" height="958" alt="image" src="https://github.com/user-attachments/assets/d1cba477-5255-4e77-96e1-5bf7eaffc1bc" style="border: 3px solid #ff0000; border-radius: 8px;" />
+<img width="3200" height="958" alt="image" src="https://github.com/user-attachments/assets/d1cba477-5255-4e77-96e1-5bf7eaffc1bc" style="border: 2px solid white;" />
 
 - Open Folder as wrokspace and input password again
 
