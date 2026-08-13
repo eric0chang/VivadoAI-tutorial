@@ -13,7 +13,8 @@ This document will guide user how to link remote server and setup LLM and Vivado
   <img width="2284" height="1088" alt="image" src="https://github.com/user-attachments/assets/7bb68641-c70f-4a12-b606-5925c03487e7" />
   <img width="3200" height="592" alt="image" src="https://github.com/user-attachments/assets/a33d123a-ec67-4a04-91ae-aa58a1f0bf34" />
 
-
+<br>
+<br>
 
 ## Setup Local LLM
 - Select **Manage Models...** in CHAT box
@@ -23,9 +24,9 @@ This document will guide user how to link remote server and setup LLM and Vivado
   <img width="2530" height="668" alt="image" src="https://github.com/user-attachments/assets/883c9545-d2a3-45ba-9b7a-f859ff254df1" />
 
 - Keep **Group Namd** and **API Key** as default, and select **Chat Completions Chat Completions API**
-  <img width="404" height="76" alt="image" src="https://github.com/user-attachments/assets/522278a9-131e-44d6-b868-b1b2cd247052" />
-  <img width="404" height="74" alt="image" src="https://github.com/user-attachments/assets/26bfe271-c28b-4044-8a40-1d6e449cf4c3" />
-  <img width="404" height="98" alt="image" src="https://github.com/user-attachments/assets/e38b063d-9d98-4f19-95ca-2da5169377d1" />
+  <img width="404" height="76" alt="image" src="https://github.com/user-attachments/assets/522278a9-131e-44d6-b868-b1b2cd247052" /> <br>
+  <img width="404" height="74" alt="image" src="https://github.com/user-attachments/assets/26bfe271-c28b-4044-8a40-1d6e449cf4c3" /> <br>
+  <img width="404" height="98" alt="image" src="https://github.com/user-attachments/assets/e38b063d-9d98-4f19-95ca-2da5169377d1" /> <br>
 
 - Edit .json file and save
   ```
