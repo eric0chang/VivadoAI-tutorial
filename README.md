@@ -13,55 +13,71 @@ This document will guide user how to link remote server and setup LLM and Vivado
 
 - Open Folder as wrokspace and input password again
   <img width="2284" height="1088" alt="image" src="https://github.com/user-attachments/assets/7bb68641-c70f-4a12-b606-5925c03487e7" />
-  <img width="3200" height="592" alt="image" src="https://github.com/user-attachments/assets/a33d123a-ec67-4a04-91ae-aa58a1f0bf34" />
+  <img width="2316" height="570" alt="image" src="https://github.com/user-attachments/assets/03f6eb23-82ed-42c9-bc96-4ac984582e9d" />
+
 
 <br>
 <br>
 
 ## Setup Local LLM
-- Select **Manage Models...** in CHAT box
-  <img width="3200" height="1324" alt="image" src="https://github.com/user-attachments/assets/fa7595bb-366a-4392-8ed0-f97c0d8cb0e1" />
+- Open Chat box
+  <img width="2562" height="1377" alt="image" src="https://github.com/user-attachments/assets/303c2b72-c481-4817-9961-0e87c87b63bc" />
+- Select **Local** in CHAT box
+  <img width="2556" height="1390" alt="image" src="https://github.com/user-attachments/assets/705c298d-0c48-4590-8f28-1aeb487e47f8" />
 
-- Press **Add Models** and Select **Custom Endpoint**
-  <img width="2530" height="668" alt="image" src="https://github.com/user-attachments/assets/883c9545-d2a3-45ba-9b7a-f859ff254df1" />
 
-- Keep **Group Namd** and **API Key** as default, and select **Chat Completions Chat Completions API**
+
+- Select **Manage Models...** or **Add Models...** in CHAT box
+  <img width="2560" height="1394" alt="image" src="https://github.com/user-attachments/assets/2dc56c7d-02da-4ba8-ab9b-bb951898afdf" />
+
+
+
+
+- Press **Add Models** and Select **OpenAI** or **OpenAI Compatible**
+  <img width="1294" height="738" alt="image" src="https://github.com/user-attachments/assets/82d184c0-7b4a-4fa2-aa7f-63a89ba8d964" />
+
+
+- Keep **Group Namd** or type any you like and input **API Key** <br>
+  - API Key: `sk-86789d4017a98f36a51de871ee45b0e7495c193af29620610` <br>
   <img width="404" height="76" alt="image" src="https://github.com/user-attachments/assets/522278a9-131e-44d6-b868-b1b2cd247052" /> <br>
   <img width="404" height="74" alt="image" src="https://github.com/user-attachments/assets/26bfe271-c28b-4044-8a40-1d6e449cf4c3" /> <br>
-  <img width="404" height="98" alt="image" src="https://github.com/user-attachments/assets/e38b063d-9d98-4f19-95ca-2da5169377d1" />
+
+  - and select **Chat Completions Chat Completions API** <br>
+  <img width="404" height="98" alt="image" src="https://github.com/user-attachments/assets/e38b063d-9d98-4f19-95ca-2da5169377d1" /> <br>
+
 
 - Edit .json file and save
   ```
     [
-        {
-            "name": "Local vLLM",
-            "vendor": "customendpoint",
-            "apiKey": "dummy",
-            "apiType": "chat-completions",
-            "models": [
-                {
-                    "id": "openai/gpt-oss-120b",
-                    "name": "GPT-OSS 120B (vLLM)",
-                    "url": "http://192.168.10.105:45827/v1/",
-                    "toolCalling": true,
-                    "vision": false,
-                    "maxInputTokens": 120000,
-                    "maxOutputTokens": 8000,
-                    "thinking": true
-                }
-            ]
-        }
+    	{
+    		"name": "Custom Endpoint",
+    		"vendor": "customendpoint",
+    		"apiKey": "${input:chat.lm.secret.41f2ad22}",
+    		"apiType": "chat-completions",
+    		"models": [
+    			{
+    				"id": "claude-haiku",
+    				"name": "Claude Haiku 5.5 (LiteLLM)",
+    				"url": "http://192.168.1.26:4000/v1/chat/completions",
+    				"toolCalling": true,
+    				"vision": true,
+    				"maxInputTokens": 253952,
+    				"maxOutputTokens": 16000
+    			}
+    		]
+    	}
     ]
   ```
-  <img width="2576" height="950" alt="image" src="https://github.com/user-attachments/assets/488293b8-f419-47b8-964a-d81fda5016da" />
+  <img width="1287" height="397" alt="image" src="https://github.com/user-attachments/assets/63587d3b-5271-41e5-8de9-52e3da0142d1" /><br>
 
 
 <br>
 <br>
 
 ## Select and setup LLM model
-<img width="3200" height="1546" alt="image" src="https://github.com/user-attachments/assets/83300987-858f-4735-9eb8-6b6941766765" />
-<img width="3200" height="1542" alt="image" src="https://github.com/user-attachments/assets/b5a1c7c6-66c2-4ae4-b73d-414eb9e590e4" />
+<img width="2558" height="1392" alt="image" src="https://github.com/user-attachments/assets/eed62880-5ac1-4522-963d-451b07df0f79" /><br>
+
+<img width="3200" height="1542" alt="image" src="https://github.com/user-attachments/assets/b5a1c7c6-66c2-4ae4-b73d-414eb9e590e4" /><br>
 
 
 <br>
@@ -69,13 +85,22 @@ This document will guide user how to link remote server and setup LLM and Vivado
 
 ## Start Vivado AI MCP tool
 - Press ▶️ to start a new section
-  <img width="3207" height="956" alt="image" src="https://github.com/user-attachments/assets/e1fd8c51-38a1-4f6d-a758-77e4ada35d5a" />
+  <img width="3207" height="956" alt="image" src="https://github.com/user-attachments/assets/e1fd8c51-38a1-4f6d-a758-77e4ada35d5a" /><br>
 - Select the Vivado execution file
-  - `/mlsteam/data/amd-vivado-server/tools/Xilinx/Vivado/2022.1/bin/vivado`
+  - `/opt/tools/amd/2025.2/Vivado/bin/vivado`
     <br><br>
-    <img width="3200" height="850" alt="image" src="https://github.com/user-attachments/assets/57fd1fa2-befa-4433-a11c-08a4d395849f" />
+    <img width="2560" height="506" alt="image" src="https://github.com/user-attachments/assets/59eab279-6a63-4f5a-a9d4-ca73e9f0884b" /> <br>
+    <img width="2559" height="392" alt="image" src="https://github.com/user-attachments/assets/f8c2bad2-66ad-4892-aad3-81a2b4302596" /> <br>
+    <img width="2560" height="290" alt="image" src="https://github.com/user-attachments/assets/9cedbc2a-046b-4a98-a0dd-50d564fdadaf" /> <br>
+    <img width="2559" height="298" alt="image" src="https://github.com/user-attachments/assets/d3a3fee4-0732-4fc4-b369-0e44f957e6ae" /> <br>
+    <img width="2559" height="321" alt="image" src="https://github.com/user-attachments/assets/33b4de3b-f730-4d4e-a94d-ba9dd1a004e7" /> <br>
+    <img width="2559" height="315" alt="image" src="https://github.com/user-attachments/assets/0c94fec4-9a7c-47ff-94fe-fcc7769dab82" /> <br>
+
+    
+
+
 - Wait for new section start <br>
-  <img width="241" height="316" alt="image" src="https://github.com/user-attachments/assets/292f0d32-55e3-4633-8fe7-1d6e741b277e" />
+  <img width="241" height="316" alt="image" src="https://github.com/user-attachments/assets/292f0d32-55e3-4633-8fe7-1d6e741b277e" /><br>
 
 
 
