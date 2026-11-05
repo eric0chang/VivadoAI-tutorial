@@ -7,8 +7,8 @@ This document will guide user how to link remote server and setup LLM and Vivado
 ## Connect Remote Server through SSH
 - connect server with username, password and IP address
   - modify username/password with requirement,
-    username: `ross-user1@220.128.132.194:2622`
-    password: '123456'
+    - username: `ross-user1@220.128.132.194:2622`
+    - password: '123456'
     <img width="3200" height="958" alt="image" src="https://github.com/user-attachments/assets/d1cba477-5255-4e77-96e1-5bf7eaffc1bc" />
 
 - Open Folder as wrokspace and input password again
