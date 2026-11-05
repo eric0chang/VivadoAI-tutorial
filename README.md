@@ -33,8 +33,9 @@ This document will guide user how to link remote server and setup LLM and Vivado
 
 
 
-- Press **Add Models** and Select **OpenAI** or **OpenAI Compatible**
-  <img width="1294" height="738" alt="image" src="https://github.com/user-attachments/assets/82d184c0-7b4a-4fa2-aa7f-63a89ba8d964" />
+- Press **Add Models** and Select **Custom Endpoint** <br>
+  <img width="1308" height="340" alt="image" src="https://github.com/user-attachments/assets/7928fc6e-2744-4d30-b19f-45ce1d01ce42" /> <br>
+
 
 
 - Keep **Group Namd** or type any you like and input **API Key** <br>
